@@ -1,0 +1,7 @@
+# Numeric Rules
+Loan_Amount_000 > 0
+
+# Categorical Rules
+Loan_Type_Description %in% c("Conventional","FHA insured", "VA guaranteed", "FSA/RHS guaranteed")
+Conventional_Status %in% c("Conventional", "Non-Conventional")
+Conforming_Status %in% c("Conforming", "Jumbo")
