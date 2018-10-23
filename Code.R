@@ -10,8 +10,8 @@ rm(x, packages)
 
 ##### Function for loading & transforming data (Please change the file paths to load your data) #####
 hmda_init <-
-  function(instifile = "C:/Users/Billa/Google Drive/MSIS/Case Competitions/Capital One/data-challenge-data-master/2012_to_2014_institutions_data.csv",
-           loanfile = "C:/Users/Billa/Google Drive/MSIS/Case Competitions/Capital One/data-challenge-data-master/2012_to_2014_loans_data.csv") {
+  function(instifile = "C:/Users/ManojKumarBilla/Documents/GitHub/Home-Mortgage-Disclosure-Act-Analysis/2012_to_2014_institutions_data.csv",
+           loanfile = "C:/Users/ManojKumarBilla/Documents/GitHub/Home-Mortgage-Disclosure-Act-Analysis/2012_to_2014_loans_data.csv") {
     
                                                       
     institutions <- fread(instifile, stringsAsFactors = FALSE) 
